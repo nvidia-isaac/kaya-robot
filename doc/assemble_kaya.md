@@ -26,8 +26,8 @@ robot.
 Parts
 -----
 
-For a list of 3D printed parts, and STL files for creating the parts,
-see the [Isaac Developer
+For a list of 3D printed parts, and STL/STEP/IGES files for creating the parts,
+see either the [`cad-files`](https://github.com/nvidia-isaac/kaya-robot/tree/master/cad-files) folder in this GitHub repository, or the [Isaac Developer
 Downloads](https://developer.nvidia.com/isaac/downloads) website.
 
 The following is a list of the off-the-shelf components needed for
