@@ -631,7 +631,7 @@ See [Wire the BMI160 IMU to the Jetson Nano or Xavier](wire_bmi160_imu.md) for m
 
 **15 Prepare the Terminal Block**
 
--   Usinge terminal block jumpers, join the two leftmost terminal block
+-   Using terminal block jumpers, join the two leftmost terminal block
     connections together, then the two rightmost connections. This
     allows battery B+ and B- to be routed to the 12V and 5V DC
     regulators.
