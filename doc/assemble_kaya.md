@@ -599,7 +599,7 @@ See [Wire the BMI160 IMU to the Jetson Nano or Xavier](wire_bmi160_imu.md) for m
 1.  Connect the antenna cables to the Wi-Fi antennas using the SMA screw
     terminal.
 2.  Bend antennas to 90 degrees, and fit them in the designated channels
-    on either side of of the base (Kaya\_Nano\_Base).
+    on either side of the base (Kaya\_Nano\_Base).
 3.  Fasten antennas in place using zip-ties, as shown.
 
     ![image](images/kaya12.jpg)
