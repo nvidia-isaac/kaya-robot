@@ -855,7 +855,7 @@ MIC2101.
 Running Isaac SDK on Kaya
 -------------------------
 
-Once you have assembled a your Kaya, use the procedures in
+Once you have assembled your Kaya, use the procedures in
 [How to Get Started with Jetson Nano](nano.md) get started with Isaac on the Jetson Nano, and deploy
 and run a couple of sample applications.
 
