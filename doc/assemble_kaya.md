@@ -882,7 +882,7 @@ The Follow Me Application
 The following steps deploy an application to have the Kaya robot
 autonomously move towards a designated AprilTag fiducial. This
 application combines AprilTag detection, path planning, control, and the
-Kaya driver. It requires a working realsense camera for AprilTag
+Kaya driver. It requires a working RealSense camera for AprilTag
 detection and path planning, and a joystick to enable autonomous mode.
 
 1.  On the desktop system where the Isaac SDK is installed, enter the
@@ -904,7 +904,7 @@ detection and path planning, and a joystick to enable autonomous mode.
     fiducial\_as\_goal, and change the target\_fiducial\_id (default is
     "tag36h11\_9") to the id of the AprilTag in use.
 
-    If you put the AprilTag within the realsense camera's field of view,
+    If you put the AprilTag within the RealSense camera's field of view,
     you should see in the Follower Kaya - Camera window that the april
     tag is detected, and a planned path shown in a blue line from the
     Kaya robot to the april tag.
