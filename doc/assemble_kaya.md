@@ -599,7 +599,7 @@ See [Wire the BMI160 IMU to the Jetson Nano or Xavier](wire_bmi160_imu.md) for m
 1.  Connect the antenna cables to the Wi-Fi antennas using the SMA screw
     terminal.
 2.  Bend antennas to 90 degrees, and fit them in the designated channels
-    on either side of of the base (Kaya\_Nano\_Base).
+    on either side of the base (Kaya\_Nano\_Base).
 3.  Fasten antennas in place using zip-ties, as shown.
 
     ![image](images/kaya12.jpg)
@@ -631,7 +631,7 @@ See [Wire the BMI160 IMU to the Jetson Nano or Xavier](wire_bmi160_imu.md) for m
 
 **15 Prepare the Terminal Block**
 
--   Usinge terminal block jumpers, join the two leftmost terminal block
+-   Using terminal block jumpers, join the two leftmost terminal block
     connections together, then the two rightmost connections. This
     allows battery B+ and B- to be routed to the 12V and 5V DC
     regulators.
@@ -855,7 +855,7 @@ MIC2101.
 Running Isaac SDK on Kaya
 -------------------------
 
-Once you have assembled a your Kaya, use the procedures in
+Once you have assembled your Kaya, use the procedures in
 [How to Get Started with Jetson Nano](nano.md) get started with Isaac on the Jetson Nano, and deploy
 and run a couple of sample applications.
 
@@ -882,7 +882,7 @@ The Follow Me Application
 The following steps deploy an application to have the Kaya robot
 autonomously move towards a designated AprilTag fiducial. This
 application combines AprilTag detection, path planning, control, and the
-Kaya driver. It requires a working realsense camera for AprilTag
+Kaya driver. It requires a working RealSense camera for AprilTag
 detection and path planning, and a joystick to enable autonomous mode.
 
 1.  On the desktop system where the Isaac SDK is installed, enter the
@@ -904,7 +904,7 @@ detection and path planning, and a joystick to enable autonomous mode.
     fiducial\_as\_goal, and change the target\_fiducial\_id (default is
     "tag36h11\_9") to the id of the AprilTag in use.
 
-    If you put the AprilTag within the realsense camera's field of view,
+    If you put the AprilTag within the RealSense camera's field of view,
     you should see in the Follower Kaya - Camera window that the april
     tag is detected, and a planned path shown in a blue line from the
     Kaya robot to the april tag.
